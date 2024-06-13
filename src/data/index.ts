@@ -38,6 +38,17 @@ export const navItems = [
     },
     {
       id: 4,
+      title: "Currently building a JS Animation library",
+      description: "The Inside Scoop",
+      className: "lg:row-span-1 lg:max-h-[40vh]  md:col-span-2",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      titleClassName: "justify-center md:justify-start lg:justify-center",
+      img: "/b5.svg",
+      spareImg: "/grid.svg",
+    },
+
+    {
+      id: 5,
       title: "Tech enthusiast with a passion for development.",
       description: "",
       className: "",
@@ -47,21 +58,12 @@ export const navItems = [
       spareImg: "/b4.svg",
     },
   
-    {
-      id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
+    
     {
       id: 6,
       title: "Do you want to start a project together?",
       description: "",
-      className: "",
+      className: "md:col-span-3",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
