@@ -70,6 +70,42 @@ export const gridItems = [
   },
 ];
 
+export const frontEnd = [
+  {
+    id : 1 , 
+    title : 'Next.js', 
+    logo : '/next.svg'
+  }, 
+  {
+    id : 2, 
+    title : 'TypeScript', 
+    logo : '/typescript.svg'
+  }, 
+  {
+    id : 3 , 
+    title : 'Tailwind CSS', 
+    logo : '/tailwindcss.svg'
+  }
+]
+
+export const backEnd = [
+  {
+    id : 1 , 
+    title : 'Laravel', 
+    logo : '/laravel.svg'
+  }, 
+  {
+    id : 2, 
+    title : 'Python', 
+    logo : '/python.svg'
+  }, 
+  {
+    id : 3 , 
+    title : 'MySQL', 
+    logo : '/mysql.svg'
+  }
+]
+
 export const projects = [
   {
     id: 1,
