@@ -5,7 +5,6 @@ import Image from "next/image";
 import { BackgroundGradientAnimation } from "./GradientAnimation";
 import { GlobeDemo } from "./GridGlobe";
 import { backEnd, frontEnd } from "@/data";
-import CopyButton from "./CopyButton";
 import LottieGrid from "./LottieGrid";
 export const BentoGrid = ({
   className,
