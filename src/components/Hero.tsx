@@ -40,12 +40,14 @@ export default function Hero() {
               Hi! I&apos;m Olaniran, {" "}
             </p>
 
-            <MagicButton
-              title=" Show my work "
-              icon={<FaLocationArrow />}
-              position="right"
-              handleClick={() => {}}
-            />
+            <a href="#projects" className="px-4">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            
           </div>
         </div>
       </div>

@@ -38,12 +38,12 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Currently building a JS Animation library",
+    title: "Currently mastering Data Visualization with plotly ",
     description: "The Inside Scoop",
     className: "lg:row-span-1 lg:max-h-[40vh]  md:col-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/chart.svg",
     spareImg: "/grid.svg",
   },
 
@@ -248,14 +248,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: 'https://github.com/heyolaniran',
     img: "/git.svg",
   },
   {
     id: 2,
+    link:'https://x.com/heyolaniran',
     img: "/twit.svg",
   },
   {
     id: 3,
+    link: 'https://bj.linkedin.com/in/abdias-afouda-06461022a', 
     img: "/link.svg",
   },
 ];
