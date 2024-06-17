@@ -4,6 +4,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavBar";
 import { navItems } from "@/data";
 import Projects from "@/components/Projects";
 import Experiences from "@/components/Experiences";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Grid />
         <Projects /> 
         <Experiences />
+        <Footer />
       </div>
     </main>
   );
