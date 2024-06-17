@@ -214,18 +214,11 @@ export const workExperience = [
     title: "Web Dev. & ERP Integrator",
     company: 'ROOTS', 
     desc: "Develop modules for managing and planning, automating and optimizing the resources of customer structures",
-    title: "Web Dev. & ERP Integrator",
-    company: 'ROOTS', 
-    desc: "Develop modules for managing and planning, automating and optimizing the resources of customer structures",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    
-    title: "FullStack Web Dev.",
-    company : 'CZION FINANCE', 
-    desc: "Develop a secure exchange service platform between several digital and fiat currencies.",
     
     title: "FullStack Web Dev.",
     company : 'CZION FINANCE', 
@@ -240,9 +233,6 @@ export const workExperience = [
     title: "FullStack  Web Dev.",
     company: 'WABAJOB', 
     desc: "Develop a diverse advertising platform to promote and enhance the visibility of company products.",
-    title: "FullStack  Web Dev.",
-    company: 'WABAJOB', 
-    desc: "Develop a diverse advertising platform to promote and enhance the visibility of company products.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -253,7 +243,7 @@ export const workExperience = [
     desc: "Develop the platform for tracking and managing the subscriptions of the company's customers for their 'Ma pageJaune' referencing service.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  }
+  },
   {
     id: 4,
     title: "Backend Dev.",
@@ -268,18 +258,16 @@ export const socialMedia = [
   {
     id: 1,
     link: 'https://github.com/heyolaniran',
-    link: 'https://github.com/heyolaniran',
-    img: "/git.svg",
+    img: "/twit.svg",
   },
   {
     id: 2,
     link:'https://x.com/heyolaniran',
-    link:'https://x.com/heyolaniran',
+   
     img: "/twit.svg",
   },
   {
     id: 3,
-    link: 'https://bj.linkedin.com/in/abdias-afouda-06461022a', 
     link: 'https://bj.linkedin.com/in/abdias-afouda-06461022a', 
     img: "/link.svg",
   },
