@@ -38,12 +38,12 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Currently building a JS Animation library",
+    title: "Currently mastering Data Visualization with plotly ",
     description: "The Inside Scoop",
     className: "lg:row-span-1 lg:max-h-[40vh]  md:col-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/chart.svg",
     spareImg: "/grid.svg",
   },
 
@@ -211,45 +211,54 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Dev. & ERP Integrator",
+    company: 'ROOTS', 
+    desc: "Develop modules for managing and planning, automating and optimizing the resources of customer structures",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    
+    title: "FullStack Web Dev.",
+    company : 'CZION FINANCE', 
+    desc: "Develop a secure exchange service platform between several digital and fiat currencies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
+ 
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "FullStack  Web Dev.",
+    company: 'WABAJOB', 
+    desc: "Develop a diverse advertising platform to promote and enhance the visibility of company products.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 4,
+    title: "Backend Dev.",
+    company : 'SOCOTECH', 
+    desc: "Develop the platform for tracking and managing the subscriptions of the company's customers for their 'Ma pageJaune' referencing service.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  }
 ];
 
 export const socialMedia = [
   {
     id: 1,
+    link: 'https://github.com/heyolaniran',
     img: "/git.svg",
   },
   {
     id: 2,
+    link:'https://x.com/heyolaniran',
     img: "/twit.svg",
   },
   {
     id: 3,
+    link: 'https://bj.linkedin.com/in/abdias-afouda-06461022a', 
     img: "/link.svg",
   },
 ];
