@@ -5,7 +5,7 @@ import { BsEnvelopeArrowUp } from "react-icons/bs";
 import { FaPaperPlane } from "react-icons/fa";
 import { socialMedia } from "@/data";
 
-export default function Footer () {
+export default function     Footer () {
 
     return (
         <footer className="w-full pt-20 pb-10" id="contact">

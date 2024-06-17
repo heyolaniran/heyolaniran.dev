@@ -244,14 +244,7 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Backend Dev.",
-    company : 'SOCOTECH', 
-    desc: "Develop the platform for tracking and managing the subscriptions of the company's customers for their 'Ma pageJaune' referencing service.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  }
+ 
 ];
 
 export const socialMedia = [
