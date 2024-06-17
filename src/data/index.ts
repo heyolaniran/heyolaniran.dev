@@ -107,21 +107,22 @@ export const backEnd = [
 ]
 
 export const projects = [
+  
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
     title: "CZION - Buy, Sell , Exchange cryptos",
     des: "Simplify cryptocurrencies and numerics currencies in several countries like Benin, Togo , Ivory coast.",
     img: "/cz.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://home.czionfinance.com",
+  },
+  {
+    id: 2,
+    title: "Micro CLI",
+    des: " Build your micro-frontend Architecture or start your servers in one command line ",
+    img: "/micro-pre.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/heyolaniran/micro-builder-cli/tree/main",
   },
   {
     id: 3,
@@ -129,7 +130,7 @@ export const projects = [
     des: "Save your things in web database and use it when you want  - Build with UploadThings ",
     img: "/upl.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://uploadthing-five.vercel.app/",
   },
   {
     id: 4,
@@ -137,7 +138,7 @@ export const projects = [
     des: "Get your card and start receving satoshi without mobile even you are offline",
     img: "/ln.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://lncardsbj.vercel.app",
   },
 ];
 

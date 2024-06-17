@@ -27,11 +27,11 @@ export function ProjectCard({title , desc , img , link } : { title : string , de
             src={img}
             height="1000"
             width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-60 mb-4 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-4">
+        <div className="flex justify-between items-center">
           <CardItem
             translateZ={20}
             as={Link}
