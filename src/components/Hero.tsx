@@ -33,19 +33,21 @@ export default function Hero() {
 
             <TextGenerateEffect
               className="text-center md:text-5xl lg:text-6xl text-[40px]"
-              words="Concretiser vos idées !"
+              words="Make your ideas real !"
             />
             <p className="text-center md:tracking-wider mt-4 mb-4 text-sm ">
               {" "}
-              Hi! I&apos;m Olaniran, a Next.js Developer{" "}
+              Hi! I&apos;m Olaniran, {" "}
             </p>
 
-            <MagicButton
-              title=" Show my work "
-              icon={<FaLocationArrow />}
-              position="right"
-              handleClick={() => {}}
-            />
+            <a href="#projects" className="px-4">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            
           </div>
         </div>
       </div>
