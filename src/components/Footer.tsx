@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import MagicButton from "./ui/MagicButton";
-import { BsEnvelopeArrowUp } from "react-icons/bs";
+
 import { FaPaperPlane } from "react-icons/fa";
 import { socialMedia } from "@/data";
 
